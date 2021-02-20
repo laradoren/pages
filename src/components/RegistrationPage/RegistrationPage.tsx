@@ -9,7 +9,6 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import logo from './../../images/atlasLogo.svg';
-import {red} from "@material-ui/core/colors";
 
 interface RegistrationPageProps<T = any> {
     style?: CSSProperties;
