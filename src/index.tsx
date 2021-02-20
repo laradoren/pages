@@ -10,7 +10,7 @@ import RegistrationPage from "./components/RegistrationPage";
 ReactDOM.render(
   <React.StrictMode>
       <ThemeProvider theme={theme}>
-        <RegistrationPage />
+        <AuthorizationPage />
       </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
