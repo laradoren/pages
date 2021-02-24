@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import {ThemeProvider} from '@material-ui/core/styles';
 import theme from "./theme";
 import RegistrationPage from "./components/RegistrationPage";
+import OrganisationPage from "./components/OrganisationPage";
 
 ReactDOM.render(
   <React.StrictMode>
       <ThemeProvider theme={theme}>
-        <AuthorizationPage />
+        <OrganisationPage />
       </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
